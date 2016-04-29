@@ -1,10 +1,7 @@
 require_relative '../lib/playground'
 
 describe Playground do
-    
-    before do
-      @playground = Playground.new(0)
-    end
+ 
     let(:playground) { Playground.new(0) }
     
   context 'when there are no children' do
